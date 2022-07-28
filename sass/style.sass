@@ -1,0 +1,104 @@
+$Mobile: 375px
+$Desktop: 1044px
+$blue-saturated : hsl(228, 45%, 44%)
+$Dark-cyan: hsl(158, 36%, 37%)
+$Very-Dark-cyan: hsl(158, 36%, 20%)
+$Cream: hsl(30, 38%, 92%)
+$Very-dark-blue: hsl(212, 21%, 14%)
+$Dark-grayish-blue: hsl(228, 12%, 48%)
+$White: hsl(0, 0%, 100%)
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap')
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap')
+
+$montserat: 'Montserrat', sans-serif
+$fraunces: 'Fraunces', serif
+
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-size: 14px
+
+body 
+    font-family: $montserat
+    background-color: $Cream
+
+.container
+    width: 335px
+    margin: 30px auto
+    overflow: hidden
+    border-radius: 10px
+    background-color: $White
+
+picture
+    img
+        width: 100%
+        
+
+.describe 
+    padding: 30px
+    .product
+        color: $Dark-grayish-blue
+        letter-spacing: 5px
+    
+    .title
+        padding: 10px 0
+        font-family: $fraunces
+        font-weight: 700
+        font-size: 2.2em
+        line-height: 0.9em        
+    
+    .description
+        color: $Dark-grayish-blue
+        padding: 10px 0
+
+    .price
+        padding: 10px 0
+        display: flex
+        gap: 10px
+        align-items: center
+        
+        .discount
+            font-family: $fraunces
+            font-size: 2.2em
+            color: $Dark-cyan
+
+        .initial
+            color: $Dark-grayish-blue
+            text-decoration: line-through
+        
+    .btn
+        font-weight: 700
+        cursor: pointer
+        width: 100%
+        color: $White
+        background-color: $Dark-cyan
+        border: 0px
+        border-radius: 5px
+        padding: 15px 0
+        display: flex
+        justify-content: center
+        align-items: center
+        gap: 10px
+
+    .btn:hover
+        background-color: $Very-Dark-cyan
+
+.attribution
+    margin: 20px 0
+    font-size: 11px
+    text-align: center
+
+.attribution
+    a
+        color: blue-saturated
+
+@media (min-width:$Desktop) 
+    .container
+        display: grid
+        grid-template-columns: 50% 50% 
+        width: 520px
+        margin-top: 100px 
+

@@ -3,7 +3,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 14px;
 }
 
@@ -18,8 +19,12 @@ body {
   overflow: hidden;
   border-radius: 10px;
   background-color: hsl(0deg, 0%, 100%);
+  height: 390px;
 }
 
+picture {
+  height: 100%;
+}
 picture img {
   width: 100%;
 }
@@ -44,9 +49,13 @@ picture img {
 }
 .describe .price {
   padding: 10px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 10px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .describe .price .discount {
   font-family: "Fraunces", serif;
@@ -66,9 +75,15 @@ picture img {
   border: 0px;
   border-radius: 5px;
   padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 10px;
 }
 .describe .btn:hover {

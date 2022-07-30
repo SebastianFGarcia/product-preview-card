@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/challenges/order-summary-component](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj/hub/order-summary-component-solution-PDJ2NITwZO)
+- Solution URL: [https://www.frontendmentor.io/challenges/product-preview-card-component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub/product-preview-card-solution-CyckcbFcfz)
 - Live Site URL: [https://sebastianfgarcia.github.io/product-preview-card-frontend-mentor/](https://sebastianfgarcia.github.io/product-preview-card-frontend-mentor/)
 
 ## My process
